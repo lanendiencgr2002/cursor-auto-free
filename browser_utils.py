@@ -10,7 +10,6 @@ load_dotenv()
 class BrowserManager:
     def __init__(self):
         self.browser = None
-
     def init_browser(self, user_agent=None):
         """初始化浏览器"""
         co = self._get_browser_options(user_agent)
